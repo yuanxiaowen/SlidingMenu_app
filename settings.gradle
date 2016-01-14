@@ -1,0 +1,2 @@
+include ':app', ':myactivitydata', ':appapletion', ':myservice', ':myserviceintent', ':actionbarsherlock', ':library'
+include ':smallSlidingMenumaster'

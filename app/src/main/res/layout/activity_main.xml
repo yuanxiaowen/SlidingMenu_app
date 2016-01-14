@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.test.example.textsa_app.MainActivity">
+
+    <EditText
+        android:id="@+id/ed_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入电话..."
+        android:textColor="#ff2800"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="拨打电话"
+        android:id="@+id/button"
+        android:layout_below="@+id/ed_text"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:lines="5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_below="@+id/button"
+        android:hint="请输入短信内容..."
+        android:textColor="#ff2800"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发送短信"
+        android:id="@+id/button2"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
